@@ -30,31 +30,31 @@ I request you to consider the above-mentioned arguments, and give urgent priorit
 
 `;
 
-	var altWords = {
-  "interest": [
-    "appeal",
-    "plea",
-    "demand",
-    "call",
-    "seeking",
-    "petition",
-    "asking"
-  ],
-  "Welfare": [
-    "Need",
-    "Well-being",
-    "Protection",
-    "Safety",
-    "Sake",
-    "Good"
-  ]
-}
-    console.log("replacing words");
-    for (var key in altWords) {
-        var arr = altWords[key];
-        var r = Math.floor((Math.random() * arr.length));
-        subject = subject.replace(key, arr[r])
-    }
+// 	var altWords = {
+//   "interest": [
+//     "appeal",
+//     "plea",
+//     "demand",
+//     "call",
+//     "seeking",
+//     "petition",
+//     "asking"
+//   ],
+//   "Welfare": [
+//     "Need",
+//     "Well-being",
+//     "Protection",
+//     "Safety",
+//     "Sake",
+//     "Good"
+//   ]
+// }
+//     console.log("replacing words");
+//     for (var key in altWords) {
+//         var arr = altWords[key];
+//         var r = Math.floor((Math.random() * arr.length));
+//         subject = subject.replace(key, arr[r])
+//     }
 
 
 	var mailLink = document.createElement('a');
